@@ -21,7 +21,7 @@
 
 | Frontend             | Backend         | Real-time        | UI/UX             |
 |----------------------|------------------|------------------|------------------|
-| Next.js (App Router) | Node.js + Express | WebSocket (`ws`) | Tailwind CSS      |
+| Next.js (App Router) | Node.js + Express | WebSocket (`ws`) | Vanilla CSS      |
 | TypeScript           | JWT Auth         | Custom Socket Events | Responsive UI |
 
 ---
