@@ -15,7 +15,9 @@ export default function LoginPage() {
       const res = await axios.post('/login', { username, password });
       localStorage.setItem('token', res.data.token);
       localStorage.setItem('username', username);
-      router.push('/chat');
+      
+      // ✅ Redirect to chat mode selector page
+      router.push('/select');
     } catch (err: any) {
       setError(err.response?.data?.message || 'Login failed');
     }
