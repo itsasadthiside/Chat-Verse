@@ -1,3 +1,48 @@
+# Chat-Verse 💬
+
+**Chat-Verse** is a modern, full-stack real-time chat application built using **Next.js 14**, **WebSockets**, and **Node.js**. It supports real-time messaging, user authentication, typing indicators, message status updates, toast notifications, and profile editing.
+
+---
+
+## ✨ Features
+
+- 🔐 JWT Authentication  
+- 🟢 Real-Time Messaging (WebSocket)  
+- 👀 Message Status: Sent, Delivered, Seen  
+- ⚡ Typing Indicators  
+- 🛎️ Real-Time Toast Notifications  
+- 🧑‍🎨 Profile Editing (Name & Picture)  
+- 🧑‍🤝‍🧑 Online Presence Detection  
+- 🎨 Responsive UI with Tailwind CSS  
+
+---
+
+## 📦 Tech Stack
+
+| Frontend             | Backend         | Real-time        | UI/UX             |
+|----------------------|------------------|------------------|------------------|
+| Next.js (App Router) | Node.js + Express | WebSocket (`ws`) | Vanilla CSS      |
+| TypeScript           | JWT Auth         | Custom Socket Events | Responsive UI |
+
+---
+
+## 🖼️ Preview
+
+![Chat UI Preview](preview.png)
+> Replace `preview.png` with an actual screenshot of your app.
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the Repo
+
+```bash
+git clone https://github.com/itsasadthiside/Chat-Verse.git
+cd Chat-Verse
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
